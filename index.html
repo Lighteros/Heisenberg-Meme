@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#12100B" />
+  <title>Heisenberg (HEISENBERG) on Robinhood Chain</title>
+  <meta name="description" content="Heisenberg. Daily stock market commentary. Long and short ideas. Stats, trends, and a patterns recognizer on Robinhood Chain." />
+  <link rel="icon" href="logo.jpg" type="image/jpeg" />
+  <link rel="canonical" href="https://heisenbergrh.lol/" />
+  <meta property="og:title" content="Heisenberg (HEISENBERG)" />
+  <meta property="og:description" content="Daily stock market commentary. Both long and short ideas. Stats, trends, patterns recognizer." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://heisenbergrh.lol/" />
+  <meta property="og:image" content="logo.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body id="top">
+  <canvas id="formula" aria-hidden="true"></canvas>
+  <div class="haze" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="grid" aria-hidden="true"></div>
+  <div class="rail" aria-hidden="true">Heisenberg · Robinhood 4663</div>
+  <div class="seek" id="seek" aria-hidden="true"></div>
+
+  <header class="bar" id="bar">
+    <a class="mark" href="#top">
+      <img src="logo.jpg" alt="" width="40" height="40" />
+      <span>
+        <strong>Heisenberg</strong>
+        <small>HEISENBERG</small>
+      </span>
+    </a>
+    <button class="menu" type="button" aria-expanded="false" aria-controls="links">
+      <span></span>
+      <span></span>
+      <span class="sr">Menu</span>
+    </button>
+    <nav id="links" class="links">
+      <a href="#about">About</a>
+      <a href="#howtobuy">How to Buy</a>
+      <a href="#chart">Chart</a>
+      <a href="#joinus">Join Us</a>
+      <a class="xbtn" href="https://x.com/HEISENBERG_RH" target="_blank" rel="noopener noreferrer" aria-label="Heisenberg on X">
+        <img src="icons/x.svg" alt="" width="14" height="14" />
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="shell hero-split">
+        <div class="hero-copy">
+          <p class="live"><i></i> Robinhood Chain · Session open</p>
+          <h1>Heisenberg</h1>
+          <p class="ticker-name">HEISENBERG</p>
+          <p class="lede">Daily stock market commentary. Both long and short ideas. Stats, trends, patterns recognizer.</p>
+          <div class="ca-box">
+            <span>Contract</span>
+            <code id="ca">0xF119aE24ECC34e90bea3cA171DD86E5309859C17</code>
+            <button type="button" data-copy="0xF119aE24ECC34e90bea3cA171DD86E5309859C17">Copy</button>
+          </div>
+          <div class="cta">
+            <a class="pill gold" href="https://app.uniswap.org/swap?chain=robinhood&amp;outputCurrency=0xF119aE24ECC34e90bea3cA171DD86E5309859C17" target="_blank" rel="noopener noreferrer">
+              <img src="icons/uniswap.svg" alt="" width="18" height="18" />
+              Buy on Uniswap
+            </a>
+            <a class="pill ink" href="https://dexscreener.com/robinhood/0xaf36a2b5f81ab17c194462654e211b569a1f3cdc" target="_blank" rel="noopener noreferrer">
+              <img src="icons/dexscreener.svg" alt="" width="18" height="18" />
+              Dexscreener
+            </a>
+          </div>
+          <dl class="quotes" id="quotes" hidden>
+            <div><dt>Price</dt><dd id="q-price">—</dd></div>
+            <div><dt>Market cap</dt><dd id="q-mcap">—</dd></div>
+            <div><dt>Liquidity</dt><dd id="q-liq">—</dd></div>
+            <div><dt>24h</dt><dd id="q-chg">—</dd></div>
+          </dl>
+        </div>
+
+        <div class="flask" id="flask">
+          <svg class="orbit" viewBox="0 0 360 360" aria-hidden="true">
+            <circle cx="180" cy="180" r="168" />
+            <circle cx="180" cy="180" r="146" />
+            <circle class="bead" cx="180" cy="12" r="4" />
+            <circle class="bead delay" cx="348" cy="180" r="3" />
+          </svg>
+          <div class="hex">
+            <img src="logo.jpg" alt="Heisenberg portrait with laboratory glassware" width="280" height="280" />
+          </div>
+          <p class="caption">The formula · RH-4663</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="tape" aria-hidden="true">
+      <div class="tape-run">
+        <p>HEISENBERG <em>/</em> LONG IDEAS <em>/</em> SHORT IDEAS <em>/</em> STATS <em>/</em> TRENDS <em>/</em> PATTERNS RECOGNIZER <em>/</em> ROBINHOOD CHAIN <em>/</em> UNISWAP V3 <em>/</em> HEISENBERG <em>/</em> LONG IDEAS <em>/</em> SHORT IDEAS <em>/</em> STATS <em>/</em> TRENDS <em>/</em> PATTERNS RECOGNIZER <em>/</em> ROBINHOOD CHAIN <em>/</em> UNISWAP V3 <em>/</em></p>
+        <p>HEISENBERG <em>/</em> LONG IDEAS <em>/</em> SHORT IDEAS <em>/</em> STATS <em>/</em> TRENDS <em>/</em> PATTERNS RECOGNIZER <em>/</em> ROBINHOOD CHAIN <em>/</em> UNISWAP V3 <em>/</em> HEISENBERG <em>/</em> LONG IDEAS <em>/</em> SHORT IDEAS <em>/</em> STATS <em>/</em> TRENDS <em>/</em> PATTERNS RECOGNIZER <em>/</em> ROBINHOOD CHAIN <em>/</em> UNISWAP V3 <em>/</em></p>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="shell">
+        <header class="head rise">
+          <span>01</span>
+          <h2>About</h2>
+        </header>
+        <div class="ledger">
+          <article class="manifesto rise">
+            <p class="eyebrow">Desk note</p>
+            <h3>Read the tape. Then write the formula.</h3>
+            <p>Heisenberg is a Robinhood Chain memecoin built around a daily market desk. The work is commentary first: both sides of the book, the numbers behind a move, the trend that is actually in force, and the pattern that keeps repeating until it does not.</p>
+            <p>The portrait is the lab. The tape is the market. The token is the seat at that desk.</p>
+          </article>
+          <div class="tiles">
+            <article class="rise">
+              <h3>Name</h3>
+              <p>Heisenberg</p>
+            </article>
+            <article class="rise">
+              <h3>Symbol</h3>
+              <p>HEISENBERG</p>
+            </article>
+            <article class="rise">
+              <h3>Desk</h3>
+              <p>Daily stock market commentary. Long and short ideas.</p>
+            </article>
+            <article class="rise">
+              <h3>Method</h3>
+              <p>Stats, trends, patterns recognizer.</p>
+            </article>
+          </div>
+        </div>
+        <ul class="ideas">
+          <li class="rise">
+            <span>Long</span>
+            <strong>Ideas that hold the bid</strong>
+            <p>Structures that still have room if the tape stays constructive.</p>
+          </li>
+          <li class="rise">
+            <span>Short</span>
+            <strong>Ideas that fade the ask</strong>
+            <p>Exhaustion, failed breaks, and levels that should not be chased.</p>
+          </li>
+          <li class="rise">
+            <span>Read</span>
+            <strong>Stats, trends, patterns</strong>
+            <p>A recognizer for the shape of the session, not a slogan.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="buy" id="howtobuy">
+      <div class="shell">
+        <header class="head rise">
+          <span>02</span>
+          <h2>How to Buy</h2>
+        </header>
+        <p class="lead rise">Four procedures. Confirm the contract on every screen before you sign.</p>
+        <ol class="protocol">
+          <li class="rise">
+            <em>01</em>
+            <h3>Add Robinhood Chain</h3>
+            <p>Robinhood Wallet already carries the network. Any other EVM wallet can add it by hand.</p>
+            <ul class="spec">
+              <li><span>Chain ID</span><b>4663</b></li>
+              <li><span>RPC</span><b>rpc.mainnet.chain.robinhood.com</b></li>
+              <li><span>Gas</span><b>ETH</b></li>
+              <li><span>Explorer</span><b>robinhoodchain.blockscout.com</b></li>
+            </ul>
+          </li>
+          <li class="rise">
+            <em>02</em>
+            <h3>Fund ETH</h3>
+            <p>Gas and the Uniswap fill both spend ETH on Robinhood Chain. Land ETH on your address first.</p>
+          </li>
+          <li class="rise">
+            <em>03</em>
+            <h3>Swap on Uniswap</h3>
+            <p>Open the Robinhood market and buy HEISENBERG. Match the contract on the confirmation.</p>
+            <code>0xF119aE24ECC34e90bea3cA171DD86E5309859C17</code>
+            <a class="textlink" href="https://app.uniswap.org/swap?chain=robinhood&amp;outputCurrency=0xF119aE24ECC34e90bea3cA171DD86E5309859C17" target="_blank" rel="noopener noreferrer">
+              <img src="icons/uniswap.svg" alt="" width="16" height="16" />
+              Open Uniswap
+            </a>
+          </li>
+          <li class="rise">
+            <em>04</em>
+            <h3>Read the pair</h3>
+            <p>The live book is the Uniswap v3 HEISENBERG / WETH pool. Blockscout holds the token page.</p>
+            <a class="textlink" href="https://dexscreener.com/robinhood/0xaf36a2b5f81ab17c194462654e211b569a1f3cdc" target="_blank" rel="noopener noreferrer">
+              <img src="icons/dexscreener.svg" alt="" width="16" height="16" />
+              Dexscreener
+            </a>
+            <a class="textlink" href="https://robinhoodchain.blockscout.com/token/0xF119aE24ECC34e90bea3cA171DD86E5309859C17" target="_blank" rel="noopener noreferrer">
+              <img src="icons/blockscout.svg" alt="" width="16" height="16" />
+              Blockscout
+            </a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="chart" id="chart">
+      <div class="shell">
+        <header class="head rise">
+          <span>03</span>
+          <h2>Chart</h2>
+        </header>
+        <p class="lead rise">Dexscreener embed for the Robinhood Chain pair. Nothing else sits in this frame.</p>
+        <div class="scope rise">
+          <iframe
+            title="Heisenberg chart on Dexscreener for Robinhood Chain"
+            src="https://dexscreener.com/robinhood/0xaf36a2b5f81ab17c194462654e211b569a1f3cdc?embed=1&amp;theme=dark&amp;trades=0&amp;info=0&amp;chartTheme=dark"
+            loading="lazy"
+            allow="fullscreen"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="join" id="joinus">
+      <div class="shell">
+        <header class="head rise">
+          <span>04</span>
+          <h2>Join Us</h2>
+        </header>
+        <p class="lead rise">The plate is the banner. The doors open X, the pool, the chart, and the explorer.</p>
+        <figure class="plate rise">
+          <img src="banner.jpg" alt="The stock market is never obvious. It is designed to fool most of the people, most of the time. Jesse Lauriston Livermore." width="1200" height="400" />
+        </figure>
+        <div class="doors">
+          <a class="door rise" href="https://x.com/HEISENBERG_RH" target="_blank" rel="noopener noreferrer">
+            <img src="icons/x.svg" alt="" width="22" height="22" />
+            <span>
+              <strong>X</strong>
+              <small>x.com/HEISENBERG_RH</small>
+            </span>
+          </a>
+          <a class="door rise" href="https://app.uniswap.org/swap?chain=robinhood&amp;outputCurrency=0xF119aE24ECC34e90bea3cA171DD86E5309859C17" target="_blank" rel="noopener noreferrer">
+            <img src="icons/uniswap.svg" alt="" width="22" height="22" />
+            <span>
+              <strong>Uniswap</strong>
+              <small>Buy HEISENBERG</small>
+            </span>
+          </a>
+          <a class="door rise" href="https://dexscreener.com/robinhood/0xaf36a2b5f81ab17c194462654e211b569a1f3cdc" target="_blank" rel="noopener noreferrer">
+            <img src="icons/dexscreener.svg" alt="" width="22" height="22" />
+            <span>
+              <strong>Dexscreener</strong>
+              <small>Robinhood pair</small>
+            </span>
+          </a>
+          <a class="door rise" href="https://robinhoodchain.blockscout.com/token/0xF119aE24ECC34e90bea3cA171DD86E5309859C17" target="_blank" rel="noopener noreferrer">
+            <img src="icons/blockscout.svg" alt="" width="22" height="22" />
+            <span>
+              <strong>Blockscout</strong>
+              <small>Token page</small>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="end">
+    <div class="shell end-row">
+      <p>Heisenberg · HEISENBERG · Robinhood Chain</p>
+      <p class="end-ca">0xF119aE24ECC34e90bea3cA171DD86E5309859C17</p>
+      <p>A memecoin. Confirm the contract before you swap.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
